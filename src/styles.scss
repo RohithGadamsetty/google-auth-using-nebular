@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+// 
+
+@font-face {
+    font-family: Metropolis-Bold;
+    src: url(assets/font/metropolis/Metropolis-Bold.otf);
+}
+@font-face {
+    font-family: Metropolis-Medium;
+    src: url(assets/font/metropolis/Metropolis-Medium.otf);
+}
+@import "~bootstrap/dist/css/bootstrap.css"
+

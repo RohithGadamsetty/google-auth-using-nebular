@@ -1,0 +1,15 @@
+<div class="token_valid">
+    <div class="header">
+        <div class="picture-border">
+            <img class="profile-picture" [src]="userProfileInfo?.picture">
+        </div>
+        <div class="profile-head">Profile</div>
+    </div>
+    <div class="profile-row align-items-end">
+        <div class="profile-name">{{userProfileInfo?.name}}</div>
+        <div class="email-id">{{userProfileInfo?.email}}</div>
+    </div>
+    <div class="logout-row row align-items-end justify-content-center">
+        <button class="btn btn-danger" (click)="logout()">Logout</button>
+    </div>
+</div>
