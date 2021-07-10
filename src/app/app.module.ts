@@ -12,6 +12,8 @@ import {
   NbOAuth2ResponseType,
 } from "@nebular/auth";
 import {
+  NbButton,
+  NbButtonModule,
   NbCardModule,
   NbIconLibraries,
   NbIconModule,
@@ -21,6 +23,7 @@ import {
 import { NbEvaIconsModule } from "@nebular/eva-icons";
 import { HttpClientModule } from "@angular/common/http";
 import { ProfileComponent } from "./profile/profile.component";
+import { NbSharedModule } from "@nebular/theme/components/shared/shared.module";
 
 @NgModule({
   declarations: [
@@ -59,6 +62,7 @@ import { ProfileComponent } from "./profile/profile.component";
     HttpClientModule,
     NbThemeModule.forRoot(),
   ],
+  exports: [],
   providers: [NbIconLibraries],
   bootstrap: [AppComponent],
 })
